@@ -35,10 +35,10 @@
         <link href="./src/output.css" rel="stylesheet">
 </head>
 
-<body class="font-sans">
+<body class="font-sans scroll-smooth">
         <!-- ============================Navbar Section============================-->
-        <nav class="bg-orange-300">
-                <div class="container mx-auto bg-orange-300 flex justify-between items-center py-8">
+        <nav class="bg-green-400">
+                <div class="container mx-auto bg-green-400 flex justify-between items-center py-8">
                         <div class="name_title text-4xl font-bold cursor-pointer">
                                 Tanjil
                         </div>
@@ -47,16 +47,16 @@
                                 <li><a href="#"
                                                 class="ease-in duration-300 hover:bg-slate-100 p-3 rounded-full">Home</a>
                                 </li>
-                                <li><a href="#"
+                                <li><a href="#about"
                                                 class="ease-in duration-300 hover:bg-slate-100 p-3 rounded-full">About</a>
                                 </li>
-                                <li><a href="#"
+                                <li><a href="#skills"
                                                 class="ease-in duration-300 hover:bg-slate-100 p-3 rounded-full">Skill</a>
                                 </li>
-                                <li><a href="#"
+                                <li><a href="#projects"
                                                 class="ease-in duration-300 hover:bg-slate-100 p-3 rounded-full">Project</a>
                                 </li>
-                                <li><a href="#"
+                                <li><a href="#contacts"
                                                 class="ease-in duration-300 hover:bg-slate-100 p-3 rounded-full">Contact</a>
                                 </li>
                         </div>
@@ -75,16 +75,16 @@
                         <li class="my-8"><a href="#"
                                         class="ease-in duration-300 hover:bg-slate-100 py-3 px-20 rounded-full">Home</a>
                         </li>
-                        <li class="my-8"><a href="#"
+                        <li class="my-8"><a href="#about"
                                         class="ease-in duration-300 hover:bg-slate-100 py-3 px-20 rounded-full">About</a>
                         </li>
-                        <li class="my-8"><a href="#"
+                        <li class="my-8"><a href="#skills"
                                         class="ease-in duration-300 hover:bg-slate-100 py-3 px-20 rounded-full">Skill</a>
                         </li>
-                        <li class="my-8"><a href="#"
+                        <li class="my-8"><a href="#projects"
                                         class="ease-in duration-300 hover:bg-slate-100 py-3 px-20 rounded-full">Project</a>
                         </li>
-                        <li class="my-8"><a href="#"
+                        <li class="my-8"><a href="#contacts"
                                         class="ease-in duration-300 hover:bg-slate-100 py-3 px-20 rounded-full ">Contact</a>
                         </li>
                 </div>
@@ -95,11 +95,11 @@
 
 
         <!-- ============================Banner Section============================-->
-        <section id="#banner">
+        <section id="#banner" class="bg-green-200">
                 <div
                         class="bannerWrapper flex flex-row-reverse justify-center items-center gap-x-40 py-20 max-lg:block">
                         <div class="bannerImageContainer max-lg:flex max-lg:justify-center">
-                                <img class="size-80 object-cover rounded-full border-8 border-double border-orange-300"
+                                <img class="size-80 object-cover rounded-full border-8 border-double border-green-500"
                                         src="./images/Portfolio.png" alt="Portfolio_image">
                         </div>
                         <div
@@ -108,13 +108,14 @@
                                         Hi, I am Tanjil <br>
                                         Frontend Developer
                                 </h1>
-                                <p class="bannerTitleDescription">
-                                        Frontend developer, skilled in HTML, CSS,
-                                        JavaScript, Tailwind, Bootstrap, Figma, and Python. I create responsive,
-                                        user-friendly websites and deliver impactful digital experiences.
+                                <p class="bannerTitleDescription text-slate-600">
+                                        I specialize in crafting responsive, user-friendly, and impactful digital
+                                        experiences. Proficient in HTML, CSS, JavaScript, Tailwind CSS, Bootstrap,
+                                        Figma, and Python, I bring a versatile skill set to every project. Let’s build
+                                        something amazing together!
                                 </p>
                                 <button
-                                        class="cvBtn bg-orange-300 w-fit px-4 py-2 hover:bg-slate-100 ease-in duration-300 max-lg:m-auto">
+                                        class="cvBtn bg-green-500 w-fit px-4 py-2 hover:bg-slate-100 ease-in duration-300 max-lg:m-auto">
                                         <a href="https://www.canva.com/design/DAGcVqQ0pro/2ZeyWI9flAT6UMC6PVIMGA/view?utm_content=DAGcVqQ0pro&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h911376a4d2"
                                                 target="_blank">Download CV</a>
                                 </button>
@@ -124,10 +125,36 @@
         </section>
         <!-- ============================Banner Section============================-->
 
+        <!-- ============================About Section============================-->
+        <section id="about">
+                <div
+                        class="py-14 flex justify-center items-center gap-16 max-md:flex-col max-sm:text-center max-sm:px-5">
+                        <div class="aboutMeImage">
+                                <img class="size-80 object-cover" src="./images/codingGuy2.jpg" alt="Coding_Guy">
+                        </div>
+                        <div class="aboutMeDescription">
+                                <h3 class="aboutMeDescription__title text-2xl font-semibold text-green-400">About</h3>
+                                <h2 class="text-5xl font-bold py-4">About me?</h2>
+                                <p class="max-w-lg text-slate-500">
+                                        Hi, I’m Tanjil, a passionate Frontend Developer skilled in HTML, CSS,
+                                        JavaScript,
+                                        Tailwind CSS, Bootstrap, Figma, and Python. I specialize in crafting responsive,
+                                        user-friendly interfaces that deliver impactful digital experiences. Dedicated
+                                        to
+                                        turning ideas into reality with clean, efficient code, I’m always exploring new
+                                        technologies to make digital experiences more engaging. Let’s create something
+                                        amazing!
+                                </p>
+                        </div>
+
+                </div>
+        </section>
+        <!-- ============================About Section============================-->
+
         <!-- ============================Skills Section============================-->
-        <section id="skills" class="py-20 bg-orange-200 flex flex-col justify-center items-center">
+        <section id="skills" class="py-20 bg-green-200 flex flex-col justify-center items-center">
                 <div class="skillsTitle">
-                        <h2 class="text-4xl font-semibold text-orange-800 mb-7 text-center">Skills</h2>
+                        <h2 class="text-4xl font-semibold text-green-600 mb-7 text-center">Skills</h2>
                         <h3 class="text-5xl font-bold mb-7 text-center">What I am capable of?</h3>
                 </div>
                 <div class="skillsContainer flex items-center gap-10 max-md:grid max-md:grid-cols-2">
@@ -145,14 +172,15 @@
 
         <!-- ============================Projects Section============================-->
         <section id="projects" class="py-20 flex flex-col justify-center items-center">
-                <h3 class="projectsHeading text-4xl font-semibold text-orange-800 mb-7 text-center">
+                <h3 class="projectsHeading text-4xl font-semibold text-green-600 mb-7 text-center">
                         Projects
                 </h3>
                 <h4 class="projectsHeadingTitle text-5xl font-bold mb-7 text-center">
                         What I have made?
                 </h4>
-                <div class="projectsList grid grid-cols-3 gap-8 max-lg:grid-cols-1">
-                        <div class="projectListItem w-96 min-h-48 rounded-b-xl shadow-xl">
+                <div class="projectsList grid grid-cols-3 gap-10 max-lg:grid-cols-1">
+                        <div
+                                class="projectListItem w-96 min-h-48 rounded-b-xl shadow-xl duration-300 ease-in hover:bg-green-200">
                                 <img class="rounded-t-xl object-cover w-96 h-48" src="./images/passwordGen.jpeg"
                                         alt="Password_Generator">
                                 <div class="projectListItemHeading pl-5 text-xl font-semibold my-4">
@@ -161,14 +189,15 @@
                                 <div class="projectListItemDescription px-5 text-sm text-slate-600 mb-2">
                                         The project is made using JavaScript and it utilizes the browsers local storage.
                                 </div>
-                                <div class="projectsListItemBtns pl-5 flex gap-6 text-orange-800 pb-6">
+                                <div class="projectsListItemBtns pl-5 flex gap-6 text-green-800 pb-6">
                                         <button><a href="https://tanjilhaque.github.io/Password_Generetor_Cyberpunk/"
                                                         target="_blank">Live View</a></button>
                                         <button><a href="https://github.com/TanjilHaque/Password_Generetor_Cyberpunk"
                                                         target="_blank">Github</a></button>
                                 </div>
                         </div>
-                        <div class="projectListItem w-96 min-h-48 rounded-b-xl shadow-xl">
+                        <div
+                                class="projectListItem w-96 min-h-48 rounded-b-xl shadow-xl duration-300 ease-in hover:bg-green-200">
                                 <img class="rounded-t-xl object-cover w-96 h-48" src="./images/finsweetPro.jpeg"
                                         alt="finsweet_website">
                                 <div class="projectListItemHeading pl-5 text-xl font-semibold my-4">
@@ -177,14 +206,15 @@
                                 <div class="projectListItemDescription px-5 text-sm text-slate-600 mb-2">
                                         The project was made using Bootstrap and it is fully responsive.
                                 </div>
-                                <div class="projectsListItemBtns pl-5 flex gap-6 text-orange-800 pb-6">
+                                <div class="projectsListItemBtns pl-5 flex gap-6 text-green-800 pb-6">
                                         <button><a href="https://tanjilhaque.github.io/Finsweet-Project/"
                                                         target="_blank">Live View</a></button>
                                         <button><a href="https://github.com/TanjilHaque/Finsweet-Project"
                                                         target="_blank">Github</a></button>
                                 </div>
                         </div>
-                        <div class="projectListItem w-96 min-h-48 rounded-b-xl shadow-xl">
+                        <div
+                                class="projectListItem w-96 min-h-48 rounded-b-xl shadow-xl duration-300 ease-in hover:bg-green-200">
                                 <img class="rounded-t-xl object-cover w-96 h-48" src="./images/hancokG.jpeg"
                                         alt="Hancok_website">
                                 <div class="projectListItemHeading pl-5 text-xl font-semibold my-4">
@@ -193,7 +223,7 @@
                                 <div class="projectListItemDescription px-5 text-sm text-slate-600 mb-2">
                                         A stylish gaming landing page made using basic HTML and vanilla CSS.
                                 </div>
-                                <div class="projectsListItemBtns pl-5 flex gap-6 text-orange-800 pb-6">
+                                <div class="projectsListItemBtns pl-5 flex gap-6 text-green-800 pb-6">
                                         <button><a href="https://tanjilhaque.github.io/Hancok-Website/"
                                                         target="_blank">Live View</a></button>
                                         <button><a href="https://github.com/TanjilHaque/Hancok-Website"
@@ -204,6 +234,33 @@
                 </div>
         </section>
         <!-- ============================Projects Section============================-->
+
+        <!-- ============================Contact Section============================-->
+        <section id="contacts" class="bg-green-200">
+                <div class="container mx-auto py-12 max-md:text-center">
+                        <div class="contactTitle text-2xl font-semibold text-green-500">
+                                Contacts
+                        </div>
+                        <div class="contactHeading text-5xl font-bold py-3">
+                                Get in touch
+                        </div>
+                        <div class="contactEmail text-lg text-slate-700">
+                                tanjilhaque7000@gmail.com
+                        </div>
+                        <div class="contactIcons text-2xl py-4 flex gap-4 text-green-500 t">
+                                <a href="https://www.linkedin.com/in/md-tanjil-haque-7b8802240/" target="_blank"><i
+                                                class="fa-brands fa-linkedin duration-300 ease-in hover:text-green-800"></i></a>
+                                <a href="https://github.com/TanjilHaque" target="_blank"><i
+                                                class="fa-brands fa-github duration-300 ease-in hover:text-green-800"></i></a>
+                                <a href="https://www.facebook.com/tanjil.haque.520/" target="_blank"><i
+                                                class="fa-brands fa-facebook duration-300 ease-in hover:text-green-800"></i></a>
+                        </div>
+                        <div class="contactCopyRight text-slate-700 text-sm">
+                                Copyright © 2025. Develop & Designed by Tanjil Haque
+                        </div>
+                </div>
+        </section>
+        <!-- ============================Contact Section============================-->
 
 
 
